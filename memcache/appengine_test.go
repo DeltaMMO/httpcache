@@ -1,4 +1,6 @@
-// +build appengine
+// +build none
+
+// We can't currently run these tests as aetest has not been ported to google.golang.org/appengine yet
 
 package memcache
 
